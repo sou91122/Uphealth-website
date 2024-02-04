@@ -1,0 +1,816 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Uphealth ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick-theme.css" rel="stylesheet"> 
+    <link href="css/plugins/owl.carousel.min.css" rel="stylesheet" >
+    <link href="css/plugins/owl.theme.default.min.css" rel="stylesheet" >
+
+       <!-- custom style css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+<!-- ---------header start---------- -->
+<header class="main-header inner">
+  <div class="container">
+    <div class="header-area">
+      <div class="main-logo-pic">
+        <a href="web-1.html"><img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="search-area">
+       <form>
+         <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search Stores of Accessories">
+         <div class="srch-icon">
+           <span><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span>
+         </div>
+        </div>
+       </form>
+      </div>
+      <div class="main-menu">
+        <ul>
+          <!-- <li><span class="srchicon"><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span></li> -->
+
+          <li class="hidesmall">
+            <div class="dropdown">
+            <button type="button" class="btn loginbtn " data-toggle="modal" data-target="#loginModal">
+              login
+            </button>
+          </div>
+        </li>
+
+        <li class="hidesmall">
+          <div class="dropdown">
+          <button type="button" class="btn signupbtn" data-toggle="modal" data-target="#loginModal">
+            Sign Up
+          </button>
+        </div>
+      </li>
+
+    <li>
+      <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span> Cart <span class="cart-item">5</span>
+      </button>
+      <div class="dropdown-menu cart">
+        <p>Pending Cart</p>
+        <div class="all-cart-item">
+          <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic3.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+        <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic6.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+      <div class="btn-part2">
+        <ul>
+          <li>
+            <a href="#" class="btn_type1">Cart</a>
+          </li>
+          <li>
+            <a href="#" class="btn_type1">Checkout</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</header>
+<!-- ---------login signup modal start------------ -->
+<div class="login-signup-sec">
+<!-- The Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+          <div class="login-signup">
+            <div class="login-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Log in</h4>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email"  >
+                <label>Email</label>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password"  >
+                  <label>Password</label>
+                  <div class="password-eye">
+                    <img class="eye-on" src="images/eye-on.png" alt="">
+                    <img class="eye-off" src="images/eye-off.png" alt="">
+  
+                  </div>
+                  </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Login</button>
+                    </div>
+                  </div>
+                  <div class="forgotpass1">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                  </div> 
+                  <div class="change-opt">
+                    <ul>
+                      <li>Don't have an account? </li>
+                      <li><a href="#" class="signup-in">Sign up</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+            <div class="signup-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Sign up</h4>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name"  >
+                <label>Full Name</label>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mobile No.." value="+965 95955955"  >
+                  <label>Mobile</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Mail-Id" value="abdullah@uphealth.com"  >
+                    <label>Email</label>
+                    </div>
+
+                  <div class="form-group">
+                <input type="password" class="form-control" placeholder="Enter Password"  >
+                <label>Password</label>
+                <div class="password-eye">
+                  <img class="eye-on" src="images/eye-on.png" alt="">
+                  <img class="eye-off" src="images/eye-off.png" alt="">
+
+                </div>
+                </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Sign Up</button>
+                    </div>
+                  </div>
+                  <div class="change-opt">
+                    <ul>
+                      <li>Already have an account? </li>
+                      <li><a href="#" class="login-in">Login</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- ---------login signup modal close------------ -->
+<!------------------breadcrumb-sec start---------------- -->
+<section class="breadcrumb-sec">
+  <div class="container">
+    <ul>
+      <li>
+        <a href="web-1.html">Home</a>
+      </li>
+      <li><span>/</span></li>
+      <li>
+        <a href="web-2.html">Accessories</a>
+      </li>
+      <li><span>/</span></li>
+      <li>Muscle Monsters</li>
+    </ul>
+  </div>
+
+</section>
+<!------------------breadcrumb-sec close---------------- -->
+<!-- ------------page head area start---------- -->
+<section class="page-head-area01">
+  <div class="container">
+   <section class="page_sec1_main">
+    <div class="page_sec1_left">
+     <div class="pic-area">
+       <img src="images/brand-pic-10.png" alt="">
+     </div>
+     <ul>
+       <li class="line1">Muscle Monsters</li>
+       <li class="line2">Gym - Fitness | Kuwait City, Kuwait | <a href="#">View Map</a> </li>
+     </ul>
+    </div>
+    <div class="page_sec1_right">
+      <div class="rht-pic-area">
+        <img src="images/msl-mono.png" alt="">
+      </div>
+    </div>
+   </section>
+  </div>
+</section>
+<!-- ------------page head area close---------- -->
+
+<!-- --------------- -->
+<section id="all-category-sec1">
+ <div class="container">
+   <section class="category-sec01-area">
+     <div class="row">
+       <div class="col-md-4 col-lg-3">
+        <div class="wrap"></div>
+<!-- -------------- -->
+        <div class="accessories-main-area area1">
+              <div class="accessories-left-panel">
+                <div class="tag-box">
+                  <div id="accordion3">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                          Categories <span><img src="images/left-arrow.png" alt=""></span>
+                        </a>
+                      </div>
+                      <div id="collapseThree" class="collapse show" data-parent="#accordion3">
+      
+                        <div class="card-body area3">
+                          <ul>
+                            <li> <a href="#">Ab Mat</a></li>
+                            <li> <a href="#">Ab Roller/Wheel</a></li>
+                            <li> <a href="#">Ab Slings</a></li>
+                            <li class="active"> <a href="#">Adjustable Dumbbells</a></li>
+                            <li> <a href="#">Aerobic Steps</a></li>
+                            <li> <a href="#">Aerobic Steps</a></li>
+                            <li> <a href="#">Ankle Weights</a></li>
+                            <li> <a href="#">Assault Bike/Upright Bike</a></li>
+                            <li> <a href="#">Atlas Stones</a></li>
+                            <li> <a href="#">Axel Bar</a></li>
+                            <li> <a href="#">Bar Collers</a></li>
+                            <li> <a href="#">Basketball Hoop</a></li>
+                          </ul>
+                        </div>
+      
+                      </div>
+                    </div>
+                    </div>
+                <div id="accordion1">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Tags <span><img src="images/left-arrow.png" alt=""></span>
+                      </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion1">
+    
+                      <div class="card-body area1">
+                        <div class="checkbox_item">
+                          <label for="one">
+                            <div class="chkbox area-2">
+                            <input id="one" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Dumbbell</p>
+                              </div>
+                           </label>
+    
+                           <label for="two">
+                            <div class="chkbox area-2">
+                            <input id="two" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Boxing Bags</p>
+                              </div>
+                           </label>
+    
+                           <label for="three">
+                            <div class="chkbox area-2">
+                            <input id="three" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Freeweight</p>
+                              </div>
+                           </label>
+    
+                           <label for="four">
+                            <div class="chkbox area-2">
+                            <input id="four" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Skipping Rope</p>
+                              </div>
+                           </label>
+    
+                           <label for="five">
+                            <div class="chkbox area-2">
+                            <input id="five" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Yoga</p>
+                              </div>
+                           </label>
+    
+                           <label for="six">
+                            <div class="chkbox area-2">
+                            <input id="six" type="checkbox">
+                              <span class="check area2"></span>
+                              <p>Cardio</p>
+                              </div>
+                           </label>
+    
+                           
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div id="accordion2">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                          Price <span><img src="images/left-arrow.png" alt=""></span>
+                        </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse show" data-parent="#accordion2">
+      
+                        <div class="card-body">
+                          
+    
+    
+                          <div class="range-slider">
+                            <span>
+                              KD<input type="number" value="50" min="0" max="500"/>
+                              KD<input type="number" value="500" min="0" max="500"/>
+                            </span>
+                          <input value="50" min="0" max="500" step="1" type="range"/>
+                          <input value="500" min="0" max="500" step="1" type="range"/>
+                        </div>
+    
+    
+    
+    
+                        </div>
+                      </div>
+                    </div>
+                    
+                    </div>
+               </div>
+              </div>
+        </div>
+<!-- --------------- -->
+       </div>
+       <div class="col-md-8 col-lg-9">
+         <div class="rhtdmblprt">
+           <div class="rhtpt_head">
+             <h3>Adjustable Dumbbells</h3>
+             <div class="srt-area">
+                 <div class="form-group">
+                   <p>Sort By</p>
+                   <select name="" id="" class="form-control">
+                     <option value="">Default</option>
+                     <option value="">Price</option>
+                     <option value="">Name</option>
+                   </select>
+                 </div>
+             </div>
+           </div>
+           <div class="pdtitem_area2">
+             <div class="row">
+               <div class="col-md-6 col-lg-3">
+                 <div class="pdt_item2">
+                   <a href="#">
+                   <div class="pdt_pic1">
+                     <img src="images/dm-pic1.png" alt="">
+                   </div>
+                   <div class="pdt_name1">
+                     <ul>
+                       <li>Big Heavy 500kg Dumbell</li>
+                       <li>KD 500.000 <span>KD 1000.000</span></li>
+                     </ul>
+                   </div>
+                   <div class="hrticon1">
+                     <ul>
+                      <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                     </ul>
+                   </div>
+                  </a>
+                 </div>
+               </div>
+               <div class="col-md-6 col-lg-3">
+                <div class="pdt_item2">
+                  <a href="#">
+                  <div class="pdt_pic1">
+                    <img src="images/dm-pic2.png" alt="">
+                  </div>
+                  <div class="pdt_name1">
+                    <ul>
+                      <li>Big Heavy 500kg Dumbell</li>
+                      <li>KD 500.000 <span>KD 1000.000</span></li>
+                    </ul>
+                  </div>
+                  <div class="hrticon1">
+                    <ul>
+                      <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                 </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="pdt_item2">
+                  <a href="#">
+                  <div class="pdt_pic1">
+                    <img src="images/dm-pic3.png" alt="">
+                  </div>
+                  <div class="pdt_name1">
+                    <ul>
+                      <li>Big Heavy 500kg Dumbell</li>
+                      <li>KD 500.000 <span>KD 1000.000</span></li>
+                    </ul>
+                  </div>
+                  <div class="hrticon1">
+                    <ul>
+                      <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                 </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+               <div class="pdt_item2">
+                 <a href="#">
+                 <div class="pdt_pic1">
+                   <img src="images/dm-pic4.png" alt="">
+                 </div>
+                 <div class="pdt_name1">
+                   <ul>
+                     <li>Big Heavy 500kg Dumbell</li>
+                     <li>KD 500.000 <span>KD 1000.000</span></li>
+                   </ul>
+                 </div>
+                 <div class="hrticon1">
+                   <ul>
+                    <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                  </ul>
+                 </div>
+                </a>
+               </div>
+             </div>
+             <div class="col-md-6 col-lg-3">
+              <div class="pdt_item2">
+                <a href="#">
+                <div class="pdt_pic1">
+                  <img src="images/dm-pic5.png" alt="">
+                </div>
+                <div class="pdt_name1">
+                  <ul>
+                    <li>Big Heavy 500kg Dumbell</li>
+                    <li>KD 500.000 <span>KD 1000.000</span></li>
+                  </ul>
+                </div>
+                <div class="hrticon1">
+                  <ul>
+                    <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                  </ul>
+                </div>
+               </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+             <div class="pdt_item2">
+               <a href="#">
+               <div class="pdt_pic1">
+                 <img src="images/dm-pic6.png" alt="">
+               </div>
+               <div class="pdt_name1">
+                 <ul>
+                   <li>Big Heavy 500kg Dumbell</li>
+                   <li>KD 500.000 <span>KD 1000.000</span></li>
+                 </ul>
+               </div>
+               <div class="hrticon1">
+                 <ul>
+                  <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                </ul>
+               </div>
+              </a>
+             </div>
+           </div>
+           <div class="col-md-6 col-lg-3">
+             <div class="pdt_item2">
+               <a href="#">
+               <div class="pdt_pic1">
+                 <img src="images/dm-pic7.png" alt="">
+               </div>
+               <div class="pdt_name1">
+                 <ul>
+                   <li>Big Heavy 500kg Dumbell</li>
+                   <li>KD 500.000 <span>KD 1000.000</span></li>
+                 </ul>
+               </div>
+               <div class="hrticon1">
+                 <ul>
+                  <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                </ul>
+               </div>
+              </a>
+             </div>
+           </div>
+           <div class="col-md-6 col-lg-3">
+            <div class="pdt_item2">
+              <a href="#">
+              <div class="pdt_pic1">
+                <img src="images/dm-pic1.png" alt="">
+              </div>
+              <div class="pdt_name1">
+                <ul>
+                  <li>Big Heavy 500kg Dumbell</li>
+                  <li>KD 500.000 <span>KD 1000.000</span></li>
+                </ul>
+              </div>
+              <div class="hrticon1">
+                <ul>
+                  <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                </ul>
+              </div>
+             </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="pdt_item2">
+              <a href="#">
+              <div class="pdt_pic1">
+                <img src="images/dm-pic2.png" alt="">
+              </div>
+              <div class="pdt_name1">
+                <ul>
+                  <li>Big Heavy 500kg Dumbell</li>
+                  <li>KD 500.000 <span>KD 1000.000</span></li>
+                </ul>
+              </div>
+              <div class="hrticon1">
+                <ul>
+                  <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+                </ul>
+              </div>
+             </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+           <div class="pdt_item2">
+             <a href="#">
+             <div class="pdt_pic1">
+               <img src="images/dm-pic3.png" alt="">
+             </div>
+             <div class="pdt_name1">
+               <ul>
+                 <li>Big Heavy 500kg Dumbell</li>
+                 <li>KD 500.000 <span>KD 1000.000</span></li>
+               </ul>
+             </div>
+             <div class="hrticon1">
+               <ul>
+                <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+              </ul>
+             </div>
+            </a>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-3">
+           <div class="pdt_item2">
+             <a href="#">
+             <div class="pdt_pic1">
+               <img src="images/dm-pic4.png" alt="">
+             </div>
+             <div class="pdt_name1">
+               <ul>
+                 <li>Big Heavy 500kg Dumbell</li>
+                 <li>KD 500.000 <span>KD 1000.000</span></li>
+               </ul>
+             </div>
+             <div class="hrticon1">
+               <ul>
+                <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+              </ul>
+             </div>
+            </a>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-3">
+          <div class="pdt_item2">
+            <a href="#">
+            <div class="pdt_pic1">
+              <img src="images/dm-pic5.png" alt="">
+            </div>
+            <div class="pdt_name1">
+              <ul>
+                <li>Big Heavy 500kg Dumbell</li>
+                <li>KD 500.000 <span>KD 1000.000</span></li>
+              </ul>
+            </div>
+            <div class="hrticon1">
+              <ul>
+                <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+              </ul>
+            </div>
+           </a>
+          </div>
+        </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
+</section>
+
+<!-- ------------footer area start------------ -->
+<footer>
+  <div class="container">
+    <div class="footer-area">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>About Uphealth</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Wishlist</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Follow Us</h5>
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><img src="images/snapchat.png" alt=""></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Newsletter</h5>
+            <p>Don't miss any updates or promotions by signing up to our newsletter.</p>
+
+            <div class="form-area-footer">
+              <form action="">
+              <ul>
+                <li>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email" >
+                  </div>
+                </li>
+                <li>
+                  <div class="srch-area">
+                    <a href="#"><span><i class="far fa-envelope"></i></span> SEND</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="ftrchbx">
+              <label>
+              <input type="checkbox">
+              <span> I have read and agree to the <a href="#">Privacy Policy</a></span>
+            </label>
+            </div>
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copy-right-area">
+  <div class="container">
+  <p>Copyright © 2020. Uphealth, All Rights Reserved</p>
+</div>
+</div>
+<!-- ------------footer area close------------ -->
+
+
+
+
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="js/plugins/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/slick.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
+<!-- <script>
+  if ($(window).width() > 1200) {
+  $(function () {
+      var top = $('.category-sec01-area .lftctgprt').offset().top - parseFloat($('.category-sec01-area .lftctgprt').css('marginTop').replace(/auto/, 0));
+      var footTop = $('footer').offset().top - parseFloat($('footer').css('marginTop').replace(/auto/, 0));
+      var nav_height = $('header').outerHeight() + 5;
+      var maxY = footTop - $('.category-sec01-area .lftctgprt').outerHeight();
+
+      $(window).scroll(function () {
+          var y = $(this).scrollTop();
+          if (y > top) {
+              if (y < maxY) {
+                  $('.category-sec01-area .lftctgprt').addClass('fixed').removeAttr('style');
+                  $('.category-sec01-area .lftctgprt').css("top", nav_height);
+              } else {
+                  $('.category-sec01-area .lftctgprt').removeClass('fixed').css({
+                      position: 'absolute',
+                      top: (maxY - top - 0) + 'px'
+                  });
+              }
+          } else {
+              $('.category-sec01-area .lftctgprt').removeClass('fixed');
+              $('.category-sec01-area .lftctgprt').css("top", 0);
+          }
+      });
+  });
+}
+</script> -->
+
+<!-- <script>
+  $(window).scroll(function(){
+ 	var a = $(window).scrollTop();
+   var pos = $('header').height();
+    var b = $('.wrap').offset().top - pos;
+   var m =  $('.lftctgprt').outerHeight() + $('header').outerHeight();
+  var fixtop = $('header').outerHeight();
+    var y = $('footer').offset().top - m;
+        if (a > b) {
+        $('.lftctgprt').addClass('fixed').css({'top':fixtop + 'px'})
+        $('.wrap').height($('.lftctgprt').outerHeight());     
+            } 
+        else {
+        $('.lftctgprt').removeClass('fixed')
+        $('.wrap').height(0);
+          }  
+    if (a > y) {
+        $('.lftctgprt').addClass('footstick');
+         $('.wrap').height($('.lftctgprt').outerHeight());
+
+     }
+     else{
+        $('.lftctgprt').removeClass('footstick');
+    }
+});
+
+
+</script> -->
+
+
+</body>
+</html>

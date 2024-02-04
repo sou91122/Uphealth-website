@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Uphealth ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick-theme.css" rel="stylesheet"> 
+    <link href="css/plugins/owl.carousel.min.css" rel="stylesheet" >
+    <link href="css/plugins/owl.theme.default.min.css" rel="stylesheet" >
+
+       <!-- custom style css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+<!-- ---------header start---------- -->
+<header class="main-header inner">
+  <div class="container">
+    <div class="header-area">
+      <div class="main-logo-pic">
+        <a href="web-1.html"><img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="search-area">
+       <form>
+         <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search Stores of Accessories">
+         <div class="srch-icon">
+           <span><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span>
+         </div>
+        </div>
+       </form>
+      </div>
+      <div class="main-menu">
+        <ul>
+          <!-- <li><span class="srchicon"><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span></li> -->
+
+          <li class="hidesmall">
+            <div class="dropdown">
+            <button type="button" class="btn loginbtn " data-toggle="modal" data-target="#loginModal">
+              login
+            </button>
+          </div>
+        </li>
+
+        <li class="hidesmall">
+          <div class="dropdown">
+          <button type="button" class="btn signupbtn" data-toggle="modal" data-target="#loginModal">
+            Sign Up
+          </button>
+        </div>
+      </li>
+
+    <li>
+      <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span> Cart <span class="cart-item">5</span>
+      </button>
+      <div class="dropdown-menu cart">
+        <p>Pending Cart</p>
+        <div class="all-cart-item">
+          <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic3.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+        <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic6.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+      <div class="btn-part2">
+        <ul>
+          <li>
+            <a href="#" class="btn_type1">Cart</a>
+          </li>
+          <li>
+            <a href="#" class="btn_type1">Checkout</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</header>
+<!-- ---------login signup modal start------------ -->
+<div class="login-signup-sec">
+<!-- The Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+          <div class="login-signup">
+            <div class="login-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Log in</h4>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email"  >
+                <label>Email</label>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password"  >
+                  <label>Password</label>
+                  <div class="password-eye">
+                    <img class="eye-on" src="images/eye-on.png" alt="">
+                    <img class="eye-off" src="images/eye-off.png" alt="">
+  
+                  </div>
+                  </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Login</button>
+                    </div>
+                  </div>
+                  <div class="forgotpass1">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                  </div> 
+                  <div class="change-opt">
+                    <ul>
+                      <li>Don't have an account? </li>
+                      <li><a href="#" class="signup-in">Sign up</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+            <div class="signup-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Sign up</h4>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name"  >
+                <label>Full Name</label>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mobile No.." value="+965 95955955"  >
+                  <label>Mobile</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Mail-Id" value="abdullah@uphealth.com"  >
+                    <label>Email</label>
+                    </div>
+
+                  <div class="form-group">
+                <input type="password" class="form-control" placeholder="Enter Password"  >
+                <label>Password</label>
+                <div class="password-eye">
+                  <img class="eye-on" src="images/eye-on.png" alt="">
+                  <img class="eye-off" src="images/eye-off.png" alt="">
+
+                </div>
+                </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Sign Up</button>
+                    </div>
+                  </div>
+                  <div class="change-opt">
+                    <ul>
+                      <li>Already have an account? </li>
+                      <li><a href="#" class="login-in">Login</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- ---------login signup modal close------------ -->
+<!------------------breadcrumb-sec start---------------- -->
+<section class="breadcrumb-sec">
+  <div class="container">
+    <ul>
+      <li>
+        <a href="web-1.html">Home</a>
+      </li>
+      <li><span>/</span></li>
+      <li>
+        <a href="web-2.html">Accessories</a>
+      </li>
+      <li><span>/</span></li>
+      <li><a href="web-3.html">Muscle Monsters</a></li>
+      <li><span>/</span></li>
+      <li>Dumbbel</li>
+    </ul>
+  </div>
+
+</section>
+<!------------------breadcrumb-sec close---------------- -->
+<!----------- section web-4 page start ----------- -->
+<section id="sec-web4">
+<div class="container">
+  <section class="details-pagemain">
+ <div class="row">
+   <div class="col-md-6 col-lg-6">
+    <section class="details-pageleft">
+      <div id="dtlcrl" class="carousel slide" data-interval="false">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#dtlcrl" data-slide-to="0" class="active">
+            <div class="thumbnail">
+              <img src="images/dm-pic2.png" class="img-responsive">
+            </div>
+          </li>
+          <li data-target="#dtlcrl" data-slide-to="1">
+            <div class="thumbnail">
+              <img src="images/dm-pic3.png" class="img-responsive">
+            </div>
+          </li>
+          <li data-target="#dtlcrl" data-slide-to="2">
+            <div class="thumbnail">
+              <img src="images/dm-pic4.png" class="img-responsive">
+            </div>
+          </li>
+          <li data-target="#dtlcrl" data-slide-to="3">
+            <div class="thumbnail">
+              <img src="images/dm-pic6.png" class="img-responsive">
+            </div>
+          </li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carouselbody">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/dm-pic2.png" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="images/dm-pic3.png" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="images/dm-pic4.png" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="images/dm-pic6.png" alt=" ">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#dtlcrl" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#dtlcrl" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+      </div>
+    </section>
+   </div>
+   <div class="col-md-6 col-lg-6">
+     <section class="details-pageright">
+       <div class="pdthd-info">
+       <h4>Adjustable Dumbbells</h4>
+       <h5>Muscle Monsters</h5>
+       <h3>KD 520.000 <span>KD 620.000</span></h3>
+       <div class="hrticon1">
+        <ul>
+         <li><a href="javascript:void(0)"><i class="fas fa-heart"></i></a></li>
+        </ul>
+      </div>
+      </div>
+      <form>
+        <div class="weight-label area1">
+          <h5>Weight</h5>
+          <ul class="waitbtn">
+            <li class="active"><a href="javascript:void(0);">10KG</a></li>
+            <li><a href="javascript:void(0);">20KG</a></li>
+            <li><a href="javascript:void(0);">30KG</a></li>
+            <li><a href="javascript:void(0);">50KG</a></li>
+            <li><a href="javascript:void(0);">70KG</a></li>
+          </ul>
+        </div>
+       
+       <div class="cart-btn-area">
+         <ul>
+            <li class="updown-btn">
+              <span class="input-number-decrement"><svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-dash" fill="#212121" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+              </svg></span>
+              <input class="input-number" type="text" value="1" min="0" max="10">
+              <span class="input-number-increment"><svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-plus" fill="#212121" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg></span>
+              </li>
+         </ul>
+         <a href="#" class="btn">ADD TO CART</a>
+       </div>
+       <div class="srhdcp">
+         <h5>Description</h5>
+         <p>cognant 10 Kg of Weight (2.5 Kg x 4 = 10 Kg), Dumbbell Rods with Nuts (2 x 14").
+            A Combination Of Gym Equipment For The Perfect Workout, Highly Durable And Long Lasting, 
+            A Perfect Muscle Builder.Each Dumbbell Rod can accommodate 2 Weight Plates on either side.
+             The perfect choice for Weight Training / Work Out at Home or GYM</p>
+       </div>
+      </form>
+     </section>
+  </div>
+ </div>
+  </section>
+</div>
+</section>
+<!----------- section web-4 page close ----------- -->
+
+<!-- ------------footer area start------------ -->
+<footer>
+  <div class="container">
+    <div class="footer-area">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>About Uphealth</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Wishlist</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Follow Us</h5>
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><img src="images/snapchat.png" alt=""></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Newsletter</h5>
+            <p>Don't miss any updates or promotions by signing up to our newsletter.</p>
+
+            <div class="form-area-footer">
+              <form action="">
+              <ul>
+                <li>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email" >
+                  </div>
+                </li>
+                <li>
+                  <div class="srch-area">
+                    <a href="#"><span><i class="far fa-envelope"></i></span> SEND</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="ftrchbx">
+              <label>
+              <input type="checkbox">
+              <span> I have read and agree to the <a href="#">Privacy Policy</a></span>
+            </label>
+            </div>
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copy-right-area">
+  <div class="container">
+  <p>Copyright © 2020. Uphealth, All Rights Reserved</p>
+</div>
+</div>
+<!-- ------------footer area close------------ -->
+
+
+
+
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="js/plugins/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/slick.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>

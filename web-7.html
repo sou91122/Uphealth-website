@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Uphealth ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick-theme.css" rel="stylesheet"> 
+    <link href="css/plugins/owl.carousel.min.css" rel="stylesheet" >
+    <link href="css/plugins/owl.theme.default.min.css" rel="stylesheet" >
+
+       <!-- custom style css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+<!-- ---------header start---------- -->
+<header class="main-header inner">
+  <div class="container">
+    <div class="header-area">
+      <div class="main-logo-pic">
+        <a href="web-1.html"><img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="search-area">
+       <form>
+         <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search Stores of Accessories">
+         <div class="srch-icon">
+           <span><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span>
+         </div>
+        </div>
+       </form>
+      </div>
+      <div class="main-menu">
+        <ul>
+          <!-- <li><span class="srchicon"><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span></li> -->
+
+          <li class="hidesmall">
+            <div class="dropdown">
+            <button type="button" class="btn loginbtn " data-toggle="modal" data-target="#loginModal">
+              login
+            </button>
+          </div>
+        </li>
+
+        <li class="hidesmall">
+          <div class="dropdown">
+          <button type="button" class="btn signupbtn" data-toggle="modal" data-target="#loginModal">
+            Sign Up
+          </button>
+        </div>
+      </li>
+
+    <li>
+      <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span> Cart <span class="cart-item">5</span>
+      </button>
+      <div class="dropdown-menu cart">
+        <p>Pending Cart</p>
+        <div class="all-cart-item">
+          <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic3.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+        <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic6.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+      <div class="btn-part2">
+        <ul>
+          <li>
+            <a href="#" class="btn_type1">Cart</a>
+          </li>
+          <li>
+            <a href="#" class="btn_type1">Checkout</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</header>
+<!-- ---------login signup modal start------------ -->
+<div class="login-signup-sec">
+<!-- The Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+          <div class="login-signup">
+            <div class="login-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Log in</h4>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email"  >
+                <label>Email</label>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password"  >
+                  <label>Password</label>
+                  <div class="password-eye">
+                    <img class="eye-on" src="images/eye-on.png" alt="">
+                    <img class="eye-off" src="images/eye-off.png" alt="">
+  
+                  </div>
+                  </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Login</button>
+                    </div>
+                  </div>
+                  <div class="forgotpass1">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                  </div> 
+                  <div class="change-opt">
+                    <ul>
+                      <li>Don't have an account? </li>
+                      <li><a href="#" class="signup-in">Sign up</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+            <div class="signup-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Sign up</h4>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name"  >
+                <label>Full Name</label>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mobile No.." value="+965 95955955"  >
+                  <label>Mobile</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Mail-Id" value="abdullah@uphealth.com"  >
+                    <label>Email</label>
+                    </div>
+
+                  <div class="form-group">
+                <input type="password" class="form-control" placeholder="Enter Password"  >
+                <label>Password</label>
+                <div class="password-eye">
+                  <img class="eye-on" src="images/eye-on.png" alt="">
+                  <img class="eye-off" src="images/eye-off.png" alt="">
+
+                </div>
+                </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Sign Up</button>
+                    </div>
+                  </div>
+                  <div class="change-opt">
+                    <ul>
+                      <li>Already have an account? </li>
+                      <li><a href="#" class="login-in">Login</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- ---------login signup modal close------------ -->
+<!-- ---------------web-7 page start--------------- -->
+<section id="paymentsfl-sec">
+  <section class="shipping_metter_part">
+    <ul class="metter_part">
+      <li>
+        <ul class="complete"> 
+          <li class="done">1 </li>
+          <li class="line">Shopping Cart</li>
+        </ul>
+      </li>
+    
+      <li>
+        <ul class="complete">
+          <li class="done">2</li>
+          <li class="line">Checkout</li>
+        </ul>
+      </li>
+      
+      <li>
+        <ul class="complete not">
+          <li class="done">3</li>
+          <li class="line">Completed</li>
+        </ul>
+      </li>
+
+    </ul>
+  </section>
+  <div class="paymentsfl-area">
+    <div class="pic-area">
+      <img src="images/success-svgrepo-com.svg" alt="">
+      <h5>PAYMENT SUCCESSFUL</h5>
+    </div>
+    <section class="scc-info">
+      <h5>Order id: 25211</h5>
+      <ul>
+        <li>Price (2 items) <span>KD 500.000</span></li>
+        <li>Delivery Charges <span>FREE</span></li>
+      </ul>
+      <h4>Total Amount <span>KD 500.000</span></h4>
+   </section>
+  </div>
+</section>
+<!-- ---------------web-7 page close--------------- -->
+
+
+<!-- ------------footer area start------------ -->
+<footer>
+  <div class="container">
+    <div class="footer-area">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>About Uphealth</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Wishlist</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Follow Us</h5>
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><img src="images/snapchat.png" alt=""></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Newsletter</h5>
+            <p>Don't miss any updates or promotions by signing up to our newsletter.</p>
+
+            <div class="form-area-footer">
+              <form action="">
+              <ul>
+                <li>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email" >
+                  </div>
+                </li>
+                <li>
+                  <div class="srch-area">
+                    <a href="#"><span><i class="far fa-envelope"></i></span> SEND</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="ftrchbx">
+              <label>
+              <input type="checkbox">
+              <span> I have read and agree to the <a href="#">Privacy Policy</a></span>
+            </label>
+            </div>
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copy-right-area">
+  <div class="container">
+  <p>Copyright © 2020. Uphealth, All Rights Reserved</p>
+</div>
+</div>
+<!-- ------------footer area close------------ -->
+
+
+
+
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="js/plugins/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/slick.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>

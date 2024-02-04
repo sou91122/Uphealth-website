@@ -1,0 +1,671 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Uphealth ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick-theme.css" rel="stylesheet"> 
+    <link href="css/plugins/owl.carousel.min.css" rel="stylesheet" >
+    <link href="css/plugins/owl.theme.default.min.css" rel="stylesheet" >
+
+       <!-- custom style css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+<!-- ---------header start---------- -->
+<header class="main-header inner">
+  <div class="container">
+    <div class="header-area">
+      <div class="main-logo-pic">
+        <a href="web-1.html"><img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="search-area">
+       <form>
+         <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search Stores of Accessories">
+         <div class="srch-icon">
+           <span><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span>
+         </div>
+        </div>
+       </form>
+      </div>
+      <div class="main-menu">
+        <ul>
+          <!-- <li><span class="srchicon"><svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-search" fill="#e40046" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg></span></li> -->
+
+          <li class="hidesmall">
+            <div class="dropdown">
+            <button type="button" class="btn loginbtn " data-toggle="modal" data-target="#loginModal">
+              login
+            </button>
+          </div>
+        </li>
+
+        <li class="hidesmall">
+          <div class="dropdown">
+          <button type="button" class="btn signupbtn" data-toggle="modal" data-target="#loginModal">
+            Sign Up
+          </button>
+        </div>
+      </li>
+
+    <li>
+      <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span> Cart <span class="cart-item">5</span>
+      </button>
+      <div class="dropdown-menu cart">
+        <p>Pending Cart</p>
+        <div class="all-cart-item">
+          <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic3.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+        <a href="#">
+        <div class="cart-item">
+          <div class="pic-area">
+            <img src="images/dm-pic6.png" alt="">
+          </div>
+          <ul>
+            <li class="pdtname">Dumbbell</li>
+            <li class="pdtcode">KD 5.000</li>
+          </ul>
+        </div>
+      </a>
+      <div class="btn-part2">
+        <ul>
+          <li>
+            <a href="#" class="btn_type1">Cart</a>
+          </li>
+          <li>
+            <a href="#" class="btn_type1">Checkout</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</header>
+<!-- ---------login signup modal start------------ -->
+<div class="login-signup-sec">
+<!-- The Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+          <div class="login-signup">
+            <div class="login-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Log in</h4>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email"  >
+                <label>Email</label>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password"  >
+                  <label>Password</label>
+                  <div class="password-eye">
+                    <img class="eye-on" src="images/eye-on.png" alt="">
+                    <img class="eye-off" src="images/eye-off.png" alt="">
+  
+                  </div>
+                  </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Login</button>
+                    </div>
+                  </div>
+                  <div class="forgotpass1">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                  </div> 
+                  <div class="change-opt">
+                    <ul>
+                      <li>Don't have an account? </li>
+                      <li><a href="#" class="signup-in">Sign up</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+            <div class="signup-area">
+              <div class="form">
+              <div class="line-head">
+                <h4> Sign up</h4>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name"  >
+                <label>Full Name</label>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mobile No.." value="+965 95955955"  >
+                  <label>Mobile</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Mail-Id" value="abdullah@uphealth.com"  >
+                    <label>Email</label>
+                    </div>
+
+                  <div class="form-group">
+                <input type="password" class="form-control" placeholder="Enter Password"  >
+                <label>Password</label>
+                <div class="password-eye">
+                  <img class="eye-on" src="images/eye-on.png" alt="">
+                  <img class="eye-off" src="images/eye-off.png" alt="">
+
+                </div>
+                </div>
+
+                  <div class="button-area">
+                    <div class="btn-type-1">
+                      <button>Sign Up</button>
+                    </div>
+                  </div>
+                  <div class="change-opt">
+                    <ul>
+                      <li>Already have an account? </li>
+                      <li><a href="#" class="login-in">Login</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- ---------login signup modal close------------ -->
+
+
+<!-- ------------------web-9 page start------------ -->
+<div class="account-dashboard-area">
+  <div class="container">
+  <div class="dashboard-main-area">
+  <div class="inner-bradecrumb">
+  <ul>
+  <li><a href="web-1.html">Home</a></li>
+  <li><span>&gt;</span> </li>
+  <li>My Account</li>
+  </ul>
+  <h4>My Account</h4>
+  </div>
+  <div class="row">
+  <div class="col-sm-4 col-lg-3">
+  <div class="dashboard-menu-area">
+  <ul class="nav nav-pills">
+  <li class="nav-item">
+  <a class="nav-link active" data-toggle="pill" href="#accountinfo-tab">My Account</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" data-toggle="pill" href="#myorder-tab">My Orders</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" data-toggle="pill" href="#myaddresses-tab">My Addresses</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" data-toggle="modal" data-target="#changepassModal">Change Password</a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div class="col-sm-8 col-lg-9">
+  <div class="dashboard-info-area">
+  <div class="tab-content">
+  <div class="tab-pane container active" id="accountinfo-tab">
+  <div class="accountinfo-tab-area">
+  <form action="">
+  <div class="row">
+  <div class="col-sm-6">
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="Full Name"  >
+  <label>Full Name</label>
+  </div>
+  </div>
+  <div class="col-sm-6">
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="Mobile" value="+965 54121555"  >
+  <label>Mobile</label>
+  </div>
+  </div>
+  <div class="col-sm-6">
+  <div class="form-group">
+  <input type="email" class="form-control" placeholder=" " value="abdullah@uphealth.com"  >
+  <label>Email</label>
+  </div>
+  </div>
+  </div>
+  <div class="btn-type-1">
+  <button>Update</button>
+  </div>
+  </form>
+  </div>
+  </div>
+  <div class="tab-pane container fade" id="myorder-tab">
+  <div class="myorder-tab">
+  <a href="#" data-toggle="modal" data-target="#myorderModal">
+  <div class="order-box">
+  <div class="order-item">
+  <div class="order-pic">
+  <img src="images/my-order-1.png" alt="">
+  </div>
+  <ul>
+  <li>FitnessOne</li>
+  <li>Order ID:<span>65151</span></li>
+  </ul>
+  </div>
+  <div class="order-status">
+  <ul>
+  <li>12/01/2020</li>
+  <li>Pending</li>
+  </ul>
+  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="#EBEBEB" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+  </svg>
+  </div>
+  </div>
+  </a>
+  <a href="#" data-toggle="modal" data-target="#myorderModal">
+  <div class="order-box">
+  <div class="order-item">
+  <div class="order-pic">
+  <img src="images/my-order-2.png" alt="">
+  </div>
+  <ul>
+  <li>First Medic</li>
+  <li>Order ID:<span>65151</span></li>
+  </ul>
+  </div>
+  <div class="order-status">
+  <ul>
+  <li>12/01/2020</li>
+  <li>Pending</li>
+  </ul>
+  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="#EBEBEB" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+  </svg>
+  </div>
+  </div>
+  </a>
+  
+  <div class="modal" id="myorderModal">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+  
+  <div class="modal-body">
+  <div class="my-order-main">
+  <div class="line-head">
+  <h4> Order ID: 65411</h4>
+  </div>
+  <div class="my-order-area2">
+  <div class="status-bar">
+  <ul>
+  <li>Status</li>
+  <li><span>:</span> Completed</li>
+  </ul>
+  <p>12/01/2020</p>
+  </div>
+  <div class="dlv-add">
+  <h4>Delivery Address</h4>
+  <h6>Home (Mirqab)</h6>
+  <p>Block 10, St. Name, Building No., Floor No., Apartment No.</p>
+  </div>
+  <div class="pdt-view-area">
+  <h4>FitnessOne</h4>
+  <div class="pdt-view">
+  <div class="pdt-pic">
+  <img src="images/dm-pic3.png" alt="">
+  </div>
+  <div class="pdtinfo">
+  <ul>
+  <li>Dumbbell 7KG</li>
+  <li>KD 5.000</li>
+  </ul>
+  </div>
+  <p>x2</p>
+  </div>
+  <div class="pdt-view">
+    <div class="pdt-pic">
+    <img src="images/dm-pic4.png" alt="">
+    </div>
+    <div class="pdtinfo">
+    <ul>
+    <li>Dumbbell 5KG x2</li>
+    <li>KD 5.000</li>
+    </ul>
+    </div>
+    <p>x1</p>
+    </div>
+  </div>
+  <div class="payment-summery">
+  <h5>Payment Summary</h5>
+  <ul>
+  <li><span>Sub Total</span><span><img src="images/dotline.png" alt=""></span> KD 10.000</li>
+  <li><span>Coupon Discount</span><span class="dot-line"><img src="images/dotline.png" alt=""></span>KD 0.500</li>
+  <li><span>Paid with Points</span><span class="dot-line"><img src="images/dotline.png" alt=""></span>KD 5.000</li>
+  <li><span>Delivery Charges</span><span class="dot-line"><img src="images/dotline.png" alt=""></span>KD 3.000</li>
+  <li><span>Total</span><span class="dot-line"><img src="images/dotline.png" alt=""></span>KD 12.500</li>
+  </ul>
+  </div>
+  <div class="paid-with">
+  <h4>Paid with</h4>
+  <h6>My Fatoorah <span><img src="images/f-icon.png" alt=""></span></h6>
+  <p>Ref ID: <span>516515351</span></p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  <div class="tab-pane container fade" id="myaddresses-tab">
+  <div class="address-tab-area">
+  <div class="address-info-box">
+  <div class="address-name">
+  <ul>
+  <li>Home (Mirqab)</li>
+  <li>Block 10, St. Name, Building No., Floor No., Apartment No.</li>
+  </ul>
+  </div>
+  <div class="address-edit">
+  <h5>Default</h5>
+  <ul>
+  <li><a href="#">DELETE</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#addaddressModal2">EDIT</a> </li>
+  </ul>
+  </div>
+  </div>
+  <div class="address-info-box">
+  <div class="address-name">
+  <ul>
+  <li>Home (Mirqab)</li>
+  <li>Block 10, St. Name, Building No., Floor No., Apartment No.</li>
+  </ul>
+  </div>
+  <div class="address-edit">
+  <h5>Default</h5>
+  <ul>
+  <li><a href="#">DELETE</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#addaddressModal2">EDIT</a> </li>
+  </ul>
+  </div>
+  </div>
+  <div class="btn-type-1">
+  <button data-toggle="modal" data-target="#addaddressModal2">Add Address</button>
+  </div>
+  <!-- --------add address modal start------- -->
+  <div class="modal" id="addaddressModal2" class="add_addressmain_modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="add-location-area">
+          <div class="line-head">
+            <h4>Add Address</h4>
+          </div>
+          <form action="">
+          <div class="form-area">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="from-box">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" value="Home"  >
+                    <label>Address Nickname (Optional)</label>
+                  </div>
+                  <div class="form-group">
+                    <select name="" id="" class="form-control" placeholder=""  >
+                      <option selected="" hidden="">Area*</option>
+                      <option>Area-1</option>
+                      <option>Area-2</option>
+                      <option>Area-3</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder=" " value="12"  >
+                    <label>Street *</label>
+
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder=" " value="12th"  >
+                    <label>House/Building Number *</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder=" " value="12th"  >
+                    <label>Apartment Number</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="from-box">
+                  <div class="form-group">
+                    <select name="" id="" class="form-control"  >
+                      <option selected="" hidden="">Mirqab</option>
+                      <option>Mirqab</option>
+                      <option>Mirqab</option>
+                      <option>Mirqab</option>
+                    </select>
+                    <label>Governorate *</label>
+
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder=" " value="1"  >
+                    <label>Block *</label>
+                  </div>
+              
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Anything" value="Anything"  >
+                    <label>Lane (Optional)</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="12th" value="12th"  >
+                    <label>Floor</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Somewhere there" value="Somewhere there"  >
+                    <label>Additional Directions (Optional)</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-type-1 modalpart">
+            <button class="barea1">Set as Default Address</button>
+            <button class="addressbtn">Confirm</button>
+          </div>
+        </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------add address modal close------ -->
+  </div>
+  </div>
+  <div class="tab-pane container fade" id="changepassword-tab">
+  </div>
+  <div class="modal" id="changepassModal">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+  <div class="modal-body">
+  <div class="change-password-area">
+  <form action="">
+  <div class="line-head">
+  <h4> Change Password</h4>
+  </div>
+  <div class="form-group">
+  <input type="password" class="form-control" placeholder="Old Password" required=" ">
+  <label for="">Old Password</label>
+  <div class="password-eye">
+  <img class="eye-on" src="images/eye-on.png" alt="">
+  <img class="eye-off" src="images/eye-off.png" alt="">
+  </div>
+  </div>
+  <div class="form-group">
+  <input type="password" class="form-control" placeholder="New Password" required=" ">
+  <label for="">New Password</label>
+  <div class="password-eye">
+  <img class="eye-on" src="images/eye-on.png" alt="">
+  <img class="eye-off" src="images/eye-off.png" alt="">
+  </div>
+  </div>
+  <div class="form-group">
+  <input type="password" class="form-control" placeholder="Confirm Password" required=" ">
+  <label for="">Confirm Password</label>
+  <div class="password-eye">
+  <img class="eye-on" src="images/eye-on.png" alt="">
+  <img class="eye-off" src="images/eye-off.png" alt="">
+  </div>
+  </div>
+  <div class="btn-type-1">
+  <button>Submit</button>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+<!-- ---------------web-9 page close------------- -->
+
+
+
+<!-- ------------footer area start------------ -->
+<footer>
+  <div class="container">
+    <div class="footer-area">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>About Uphealth</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Wishlist</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Follow Us</h5>
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><img src="images/snapchat.png" alt=""></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-content">
+            <h5>Newsletter</h5>
+            <p>Don't miss any updates or promotions by signing up to our newsletter.</p>
+
+            <div class="form-area-footer">
+              <form action="">
+              <ul>
+                <li>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email" >
+                  </div>
+                </li>
+                <li>
+                  <div class="srch-area">
+                    <a href="#"><span><i class="far fa-envelope"></i></span> SEND</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="ftrchbx">
+              <label>
+              <input type="checkbox">
+              <span> I have read and agree to the <a href="#">Privacy Policy</a></span>
+            </label>
+            </div>
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copy-right-area">
+  <div class="container">
+  <p>Copyright © 2020. Uphealth, All Rights Reserved</p>
+</div>
+</div>
+<!-- ------------footer area close------------ -->
+
+
+
+
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="js/plugins/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/slick.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>
